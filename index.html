@@ -2,7 +2,7 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-	<link href="css/styles/css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
 
     <title>Code Review</title>
   </head>
@@ -14,9 +14,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div style="background:#678aae !important" class="well">
-            <h1>Florence, South Carolina</h1>
-          </div>
+		    <img src=img/background2.jpg class="cover" alt="A graphic of bokeh">
         </div>
 
       </div>
@@ -24,26 +22,31 @@
         <div class="col-md-6">
           <div style="background:#98d2c9 !important" class="panel">
               <div class="panel-heading">
-                <h2 class="panel-title">About Me:</h2>
+                <h2 class="panel-title" id="bs-or">Interests:</h2>
               </div>
-              <div class="panel-body">
-			    <p></p>
+              <div class="panel-body" id="bs-or">
+			    <ul>
+                  <li>Beer</li>
+                  <li>Cats</li>
+                  <li>Video Games</li>
+                  <li>Fountain Pens</li>
+
+                </ul>
               </div>
             </div>
         </div>
         <div class="col-md-6">
           <div style="background:#98d2c9 !important" class="panel">
               <div class="panel-heading">
-                <h2 class="panel-title">Stuff I enjoy:</h2>
+                <h2 class="panel-title" id="bs-or">Extracurriculars:</h2>
               </div>
-              <div class="panel-body">
+              <div class="panel-body" id="bs-or">
 
                 <ul>
-                  <li>Columns Plantation</li>
-                  <li>Florence Veterans Park</li>
-                  <li>Aircraft Carrier USS Yorktown</li>
-                  <li>Destroyer USS Laffey</li>
-                  <li>Mars Bluff Atomic Bomb Impact Center</li>
+                  <li>Beer</li>
+                  <li>Hosting Bar Trivia</li>
+                  <li>Rollerskating</li>
+                  <li>Weekly Board Game Nights</li>
 
                 </ul>
               </div>
@@ -53,52 +56,60 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <h3>The Author</h3>
+            <h3 id="bs-or">The Author</h3>
             <img src="img/Jen1.jpg" class="img-responsive" alt="A photo of Jen.">
 
           </div>
           <div class="col-md-4">
-            <h3>Projects</h3>
-			<p>Links to other class projects here. Some preamble text.</p>
+            <h3 id="bs-or">Projects</h3>
+			<p id="bs-or">Check out some class projects here:</p>
 			  <ol>
 				<li>
-				  <a href="http://www.example.com/steve.html">
-			        <strong>Steve</strong>			        
+				  <a href="https://github.com/ampersnad/cupcake.git">
+			        <strong>Cupcake Store</strong>			        
 			      </a>
+				  <p id="description">I created a simple site for a fictional cupcake business. HTML and CSS were used.
+				  </p>
 				</li>
 				<li>
-				  <a href="http://www.example.com/steve.html">
-			        <strong>Steve</strong>			        
+				  <a href="https://github.com/ampersnad/vacation-site.git">
+			        <strong>Hometown Vacation Site</strong>			        
 			      </a>
+				  <p id="description">I created a simple site describing a trip made to someone's hometown. HTML, CSS, and Bootstrap were used.
+				  </p>
 				</li>
 			  </ol>
 
           </div>
           <div class="col-md-4">
-            <h3>More Projects</h3>
-			<p>Smaller projects for additional practice.</p>
+            <h3 id="bs-or">More Projects</h3>
+			<p id="bs-or">These are smaller projects to practice specific concepts:</p>
 			  <ol>
 				<li>
-				  <a href="http://www.example.com/steve.html">
-			        <strong>Steve</strong>			        
+				  <a href="https://github.com/ampersnad/my-first-webpage.git">
+			        <strong>My First Webpage</strong>			        
 			      </a>
+				  <p id="description">My first project for in-class work featured multiple pages in both HTML and CSS.
+				  </p>
 				</li>
 				<li>
-				  <a href="http://www.example.com/steve.html">
-			        <strong>Steve</strong>			        
+				  <a href="https://github.com/ampersnad/shelter.git">
+			        <strong>Animal Shelter Site</strong>			        
 			      </a>
+				  <p id="description">This site was created to showcase the box model and image floats. HTML and CSS were used.
+				  </p>
 				</li>		
 			  </ol>		
-			
           </div>
         </div>
 		<div class="row">
-		  <div class="well">
-              <p>"The home of this Irish Cowboy."</p>
-              <footer>The Mayor</footer>           
+		  <div class="col-md-8">
+		    <p id="about">My day job is an architectural lighting specifier and estimator for commercial projects. In college I couldn't commit to a path, like some sort of humanoid hot potato. After a few Interior Design classes I got a full time job working with residential lighting and the rest is history. Programming is one of those skills I've kept in my peripherals as both a back-up plan and a method of future-proofing myself (por que no los dos?).</p>
+		  </div>
+		  <div class="col-md-4">
+		    
 		  </div>
 		</div>
-      </div>
-    </div>
+      </div
   </body>
 </html>

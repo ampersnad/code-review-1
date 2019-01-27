@@ -1,20 +1,54 @@
-body {
+
+
+strong {
+	color: #bf6c78
+}
+
+.cover {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 30px;
 	
 }
 
+.img-responsive {
+	border-radius: 5px;
+	border: 2px solid #98d2c9;
+	padding: 5px;
+}
+
+h3 .col-md-4 {
+	font-family: courier;
+}
 
 
+#bs-or {
+	font-family: courier;
+}
 
+p#bs-or {
+	font-family: courier;
+	font-style: italic;
+}
 
-
-
-
-
-
-
-
-
-p {
+p#about {
 	font-family: courier;
 	
 }
+
+p#description {
+	font-size: 10px;
+	
+}
+
+h3#bs-or {
+	font-family:courier;
+	font-weight: bold;
+	
+}
+
+h2#bs-or.panel-title {
+	font-weight: bold;
+	font-size: 20px;
+}
+
