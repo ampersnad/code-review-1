@@ -13,6 +13,7 @@ _This site is a simple overview of my experience, personal hobbies & interests, 
 * _Clone this repository_
 * _Open the HTML and/or Git-Pages link in your web browser_
 * _Follow links to see additional repositories_
+* _[Link to homepage](https://ampersnad.github.io/code-review-1/)
 
 
 ## Contact details
