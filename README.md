@@ -1,8 +1,8 @@
-# _Jen's Epicodus ItP Profile_
+# Jen's Epicodus ItP Profile
 
 #### _First Code Review Project, 01.25.19_
 
-#### By _**Jen Bruce**_
+#### By **Jen Bruce**
 
 ## Description
 
